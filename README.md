@@ -72,13 +72,15 @@ El repositorio incluye:
 
 
 ### 📅 Estructura del Proyecto
+```
 bash
 Copiar
 Editar
-📁 EconoTutorIA/
-├── EconoTutorIA_Notebook.ipynb       # Código funcional y comentado
+📁 FinanzasIA/
+├── Parcial_Final_Notebook.ipynb       # Código funcional y comentado
 ├── base_conocimiento_finanzas.csv    # Base de conocimiento sobre educación financiera
 ├── README.md                         # Este documento
+```
 
 ### 🛠️ Requisitos Técnicos
 - Python 3
