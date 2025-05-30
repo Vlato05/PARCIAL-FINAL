@@ -38,6 +38,7 @@ Se eligió FLAN-T5 por ser un modelo encoder-decoder multitécnica entrenado par
 
 ## 🧪 Prompt Engineering
 ### 🎯 Prompt estructurado utilizado:
+```
 text
 Copiar
 Editar
@@ -48,12 +49,12 @@ Información financiera:
 Pregunta: {pregunta del usuario}
 
 Respuesta en español:
+```
+
 ### 📌 Técnicas utilizadas:
-Instrucción directa y clara al modelo.
-
-Separación entre contexto, pregunta e instrucción de idioma.
-
-Parámetros de generación ajustados:
+- Instrucción directa y clara al modelo.
+- Separación entre contexto, pregunta e instrucción de idioma.
+- Parámetros de generación ajustados:
 temperature=0.7
 top_p=0.9
 max_new_tokens=100
@@ -63,13 +64,12 @@ Estas técnicas aseguran que la respuesta sea relevante, breve y en español, y 
 ### 📊 Contenido del Repositorio
 El repositorio incluye:
 
-📘 EconoTutorIA_Notebook.ipynb: código documentado paso a paso
+- 📘 EconoTutorIA_Notebook.ipynb: código documentado paso a paso
 
-📁 base_conocimiento_finanzas.csv: corpus de conceptos financieros
+- 📁 base_conocimiento_finanzas.csv: corpus de conceptos financieros
 
-📄 README.md: descripción completa del proyecto
+- 📄 README.md: descripción completa del proyecto
 
-⚙️ Interfaz en Gradio lista para probar sin código
 
 ### 📅 Estructura del Proyecto
 bash
@@ -79,55 +79,49 @@ Editar
 ├── EconoTutorIA_Notebook.ipynb       # Código funcional y comentado
 ├── base_conocimiento_finanzas.csv    # Base de conocimiento sobre educación financiera
 ├── README.md                         # Este documento
-🛠️ Requisitos Técnicos
-Python 3
 
-Google Colab o Jupyter Notebook
+### 🛠️ Requisitos Técnicos
+- Python 3
 
-Librerías:
+- Google Colab o Jupyter Notebook
 
-transformers
+- Librerías:
 
-sentence-transformers
+`transformers`
 
-faiss-cpu
+`sentence-transformers`
 
-gradio
+`faiss-cpu`
 
-pandas, torch
+`gradio`
+
+`pandas, torch`
 
 Todos los scripts funcionan sin GPU ni API externa (100% gratuito).
 
-💡 Metodología aplicada
-Recuperación semántica con FAISS y embeddings
+### 💡 Metodología aplicada
+- Recuperación semántica con FAISS y embeddings
 
-Generación de respuestas con FLAN-T5 (Transformer)
+- Generación de respuestas con FLAN-T5 (Transformer)
 
-Ingeniería de prompts efectiva
+- Ingeniería de prompts efectiva
 
-Simulación numérica con criterios económicos reales
+- Simulación numérica con criterios económicos reales
 
-🔎 Conceptos aplicados
-RAG (Retrieval-Augmented Generation)
+### 🔎 Conceptos aplicados
+- RAG (Retrieval-Augmented Generation)
 
-Prompt Engineering
+- Prompt Engineering
 
-Modelos fundacionales y transformers
+- Modelos fundacionales y transformers
 
-Embeddings y búsqueda semántica
+- Embeddings y búsqueda semántica
 
-Hiperparámetros de inferencia (temperature, top_p, max_tokens)
+- Hiperparámetros de inferencia (temperature, top_p, max_tokens)
 
-Arquitectura encoder-decoder
+- Arquitectura encoder-decoder
 
-IA generativa vs IA predictiva
+- IA generativa vs IA predictiva
 
-🤝 Contribuciones
-Este proyecto es educativo y abierto. Si deseas adaptarlo o expandirlo:
 
-Haz un fork del repositorio
-
-Agrega tu versión del corpus o el modelo
-
-Envía un pull request
 
