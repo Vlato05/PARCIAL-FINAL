@@ -77,7 +77,7 @@ bash
 Copiar
 Editar
 📁 FinanzasIA/
-├── Parcial_Final_Notebook.ipynb       # Código funcional y comentado
+├── Parcial_Final_.ipynb       # Código funcional y comentado
 ├── base_conocimiento_finanzas.csv    # Base de conocimiento sobre educación financiera
 ├── README.md                         # Este documento
 ```
